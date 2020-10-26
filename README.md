@@ -1,7 +1,7 @@
-# "Ink Sketch" Filter using Shaders in Spark AR
+# Sketch Filter in Spark AR
 *Beginner*
 
-In this guide, you'll learn to create a simple camera effect that resembles an ink sketch done on white paper.
+In this guide, you'll learn to create a simple camera effect that resembles an ink sketch done on white paper using Shaders.
 
 We're going to use built-in shaders patches - the easiest way to achieve a variety of artistic styles for the Instagram camera.
 

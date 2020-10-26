@@ -18,7 +18,15 @@ Create new **Blank Project** and follow along.
    1. Select the material
    2. Click the arrow next to Diffuse in the Inspector
 
+### Using Spark AR Library
+
+1. Click on **Library** and select **Patch Assets**. 
+2. In Collections select **Shaders**.
+3. Scroll to the bottom, and select **Sobel Filter**.
+
 ![Test Animated Gif](/tutorial-img/AR-Library-Sobel-filter3.gif)
+
+Discription of Sobel Filter is already have a hint of how to use it. We will do exactly that.
 
 ![Test Animated Gif](/tutorial-img/sobel-screen.png)
 

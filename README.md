@@ -9,13 +9,14 @@ We're going to use a built-in shaders patches - easiestway to achive variety of 
 
 Create new **Blank Project** and follow along.
 
-1. Click **Add Object** and select **Rectangle**. Set the **Size** and **Width** of the rectangle to **Fill Height**, and **Fill Width**, so the rectangle fills the screen of the device.
+1. Click on **Add Object** and select **Rectangle**. Set the **Size** and **Width** of the rectangle to **Fill Height**, and **Fill Width** - rectangle will fill the screen of the device.
 
 ![Test Animated Gif](/tutorial-img/fill-width.gif)
 
-2. Create a material for the rectangle, and set the Shader Type to Flat.
-3. Select the material, and click the arrow next to Diffuse in the Inspector, to create a patch representing this property.
-
+2. Create a **Material** for the Rectangle. Set the **Shader Type** to **Flat**.
+3. To create a patch for the material:
+   1. Select the material
+   2. Click the arrow next to Diffuse in the Inspector
 
 ![Test Animated Gif](/tutorial-img/AR-Library-Sobel-filter3.gif)
 

@@ -9,9 +9,14 @@ We're going to use a built-in shaders patches - easiestway to achive variety of 
 
 Create new Blank Project and follow along.
 
-![Test Animated Gif](/tutorial-img/rectangle.gif)
+1. Click Add Object and select Rectangle. Set the Size and Width of the rectangle to Fill Height, and Fill Width, so the rectangle fills the screen of the device.
 
 ![Test Animated Gif](/tutorial-img/fill-width.gif)
+
+2. Create a material for the rectangle, and set the Shader Type to Flat.
+2. Create a material for the rectangle, and set the Shader Type to Flat.
+3. Select the material, and click the arrow next to Diffuse in the Inspector, to create a patch representing this property.
+
 
 ![Test Animated Gif](/tutorial-img/AR-Library-Sobel-filter3.gif)
 

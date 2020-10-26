@@ -68,7 +68,7 @@ To give our filter a cleaner look, we will add another Shader - **Adjust Color**
 1. Click on **Library** and select **Patch Assets**. 
 2. In Collections select **Shaders**.
 3. Scroll to the middle, and select **Adjust Colors**.
-4. Press on **Import Free*
+4. Press on **Import Free**
 5. Drag **Adjust Colors** Shader to the patch editor.
 6. Now we need to add our Shader betwen Swizzle and Diffuse Texture, so break the connection between them. 
 7. Connect **Swizzle** output to the **Texture** input of Adjust Colors Shader patch, and connect output to the **Diffuse Texture**.

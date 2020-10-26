@@ -53,5 +53,33 @@ Now when we have Patch Editor open we will start building our effect.
 8. In **Swizzle** patch change Swizzle value from "x" to "**rgb1**"
 8. Connect **Swizzle** output to the input of a **Diffuse Texture**.
 
-Now we can see 
+Now we can see in see our furst Shader in work.
+To give our filter cleaner look we will add another Shader - **Adjust Color** Shader. So we going to repetat speps to acess librury of Shaders.
+
+1. Click on **Library** and select **Patch Assets**. 
+2. In Collections select **Shaders**.
+3. Scroll to the middle, and select **Adjust Colors**.
+4. Press on **Import Free*
+5. Drag **Adjust Colors** Shader to the patch editor.
+5. Now we need to add our Shader betwen Swizzle and Diffuse Texture, so brake the connection between them. 
+6. Connect Swizzle output to the **Texture** input of Adjust Colors Shader patch, and output connect to the Diffuse Texture.
+
+If you ever used photo-editing software you will be probably familiar with at least with concepts of Brightness and Contrast.
+Our goal is to adjust value to the point where we have minimum of color noise and have maximum contrast on the edges.
+
+Last Shader we going ro add is DuoTone Shader. And again we going to repetat steps to acess librury of Shaders.
+
+1. Click on **Library** and select **Patch Assets**. 
+2. In Collections select **Shaders**.
+3. Select **Duotone Color**.
+4. Press on **Import Free*
+5. Drag DuoTone Shader to the patch editor.
+6. Again brake conection between Adjust Colors Shader and Diffuse Texture.
+7. Connect Adjust Colors Shader's output to the **Texture** input of DuoTone Shader patch, and output connect to the Diffuse Texture.
+
+
+
+
+
+
 

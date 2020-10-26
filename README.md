@@ -63,7 +63,7 @@ Now when we have Patch Editor open we will start building our effect.
 ![Sobel Filter](/tutorial-img/sobel-filter-preview.png)
 
 Now we can see in see our first Shader at work.
-To give our filterr a cleaner look we will add another Shader - **Adjust Color** Shader. So we going to repeat the steps to access the Shaders library.
+To give our filter a cleaner look, we will add another Shader - **Adjust Color** Shader. So we going to repeat the steps to access the Shaders library.
 
 1. Click on **Library** and select **Patch Assets**. 
 2. In Collections select **Shaders**.
@@ -71,7 +71,7 @@ To give our filterr a cleaner look we will add another Shader - **Adjust Color**
 4. Press on **Import Free*
 5. Drag **Adjust Colors** Shader to the patch editor.
 6. Now we need to add our Shader betwen Swizzle and Diffuse Texture, so break the connection between them. 
-7. Connect Swizzle output to the **Texture** input of Adjust Colors Shader patch, and connect output to the Diffuse Texture.
+7. Connect **Swizzle** output to the **Texture** input of Adjust Colors Shader patch, and connect output to the **Diffuse Texture**.
 
 ![Adjust Colors Shader](/tutorial-img/adjust-color-shader.png)
 

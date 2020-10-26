@@ -43,15 +43,24 @@ Now when we have Patch Editor open we will start building our effect.
 
 1. Click on **Camera**, and select ""+"" button against **Texture Extraction**
 2. Drag extracted texture to the Patch Editor.
+
+![Drag Camara Texture to the Patch Editor](/tutorial-img/camera-texture-drag.gif)
+
 3. Cick on **Device**, and also drag it to the Patch Editor.
-4. Connect Device **Screen Size** outbut to the **First Value** of Divide patch, ans **Screen Scale** to the  **Second Value**
-5. Connect **Divide** output to the **Texture Size** input of Sobel Filter patch. 
 4. Mouse-click on Pacth Editor, and in the **Search** area type **"Divide"** - **Add Pacth**
-5. Drag **Sobel Filter** to the Patch Editor, and conect **RGBA** output from **cameraTexture** to the **Sobel Filter**.
-6. Mouse-click on Pacth Editor, and in the **Search** area type **"Sweezle"** - **Add Pacth**
-7. Connect **Sobel Filter** to the input **Value** of **Swizzle** patch.
-8. In **Swizzle** patch change Swizzle value from "x" to "**rgb1**"
-8. Connect **Swizzle** output to the input of a **Diffuse Texture**.
+5. Connect Device **Screen Size** outbut to the **First Value** of Divide patch, ans **Screen Scale** to the  **Second Value**
+
+![Divide patch](/tutorial-img/divide-conect.gif)
+
+6. Connect **Divide** output to the **Texture Size** input of Sobel Filter patch. 
+
+7. Drag **Sobel Filter** to the Patch Editor, and conect **RGBA** output from **cameraTexture** to the **Sobel Filter**.
+8. Mouse-click on Pacth Editor, and in the **Search** area type **"Swizzle"** - **Add Pacth**
+9. Connect **Sobel Filter** to the input **Value** of **Swizzle** patch.
+10. In **Swizzle** patch change Swizzle value from "x" to "**rgb1**"
+11. Connect **Swizzle** output to the input of a **Diffuse Texture**.
+
+![Sobel Filter](/tutorial-img/sobel-filter-preview.png)
 
 Now we can see in see our furst Shader in work.
 To give our filter cleaner look we will add another Shader - **Adjust Color** Shader. So we going to repetat speps to acess librury of Shaders.
@@ -63,6 +72,8 @@ To give our filter cleaner look we will add another Shader - **Adjust Color** Sh
 5. Drag **Adjust Colors** Shader to the patch editor.
 5. Now we need to add our Shader betwen Swizzle and Diffuse Texture, so brake the connection between them. 
 6. Connect Swizzle output to the **Texture** input of Adjust Colors Shader patch, and output connect to the Diffuse Texture.
+
+![Adjust Colors Shader](/tutorial-img/adjust-color-shader.png)
 
 If you ever used photo-editing software you will be probably familiar with at least with concepts of Brightness and Contrast.
 Our goal is to adjust value to the point where we have minimum of color noise and have maximum contrast on the edges.
@@ -79,6 +90,7 @@ Last Shader we going ro add is DuoTone Shader. And again we going to repetat ste
 
 And the last step is to change Color A to white and color B to black. You can tweak value of Adjust Colors Shader to your satisfaction.
 
+![DuoTone Shader](/tutorial-img/duotone-shader.png)
 
 Following the same steps you can play with different Shaders to achive different camera effects.
 

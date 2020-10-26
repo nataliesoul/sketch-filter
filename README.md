@@ -25,6 +25,7 @@ Create new **Blank Project** and follow along.
 1. Click on **Library** and select **Patch Assets**. 
 2. In Collections select **Shaders**.
 3. Scroll to the bottom, and select **Sobel Filter**.
+4. Press on **Import Free*
 
 ![Test Animated Gif](/tutorial-img/AR-Library-Sobel-filter3.gif)
 
@@ -37,3 +38,7 @@ Now we need to open Patch Editor.
 ![Test Animated Gif](/tutorial-img/view-patch-editor.png)
 
 Select **View** - **Show/Hide Patch Editor**.
+
+Now when we have Patch Editor open we will start building our effect.
+
+1. Click on **Camera**, and select ""+"" button against **Texture Extraction**

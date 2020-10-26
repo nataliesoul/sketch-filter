@@ -77,8 +77,10 @@ Last Shader we going ro add is DuoTone Shader. And again we going to repetat ste
 6. Again brake conection between Adjust Colors Shader and Diffuse Texture.
 7. Connect Adjust Colors Shader's output to the **Texture** input of DuoTone Shader patch, and output connect to the Diffuse Texture.
 
+And the last step is to change Color A to white and color B to black. You can tweak value of Adjust Colors Shader to your satisfaction.
 
 
+Following the same steps you can play with different Shaders to achive different camera effects.
 
 
 

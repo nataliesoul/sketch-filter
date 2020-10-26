@@ -42,3 +42,16 @@ Select **View** - **Show/Hide Patch Editor**.
 Now when we have Patch Editor open we will start building our effect.
 
 1. Click on **Camera**, and select ""+"" button against **Texture Extraction**
+2. Drag extracted texture to the Patch Editor.
+3. Cick on **Device**, and also drag it to the Patch Editor.
+4. Connect Device **Screen Size** outbut to the **First Value** of Divide patch, ans **Screen Scale** to the  **Second Value**
+5. Connect **Divide** output to the **Texture Size** input of Sobel Filter patch. 
+4. Mouse-click on Pacth Editor, and in the **Search** area type **"Divide"** - **Add Pacth**
+5. Drag **Sobel Filter** to the Patch Editor, and conect **RGBA** output from **cameraTexture** to the **Sobel Filter**.
+6. Mouse-click on Pacth Editor, and in the **Search** area type **"Sweezle"** - **Add Pacth**
+7. Connect **Sobel Filter** to the input **Value** of **Swizzle** patch.
+8. In **Swizzle** patch change Swizzle value from "x" to "**rgb1**"
+8. Connect **Swizzle** output to the input of a **Diffuse Texture**.
+
+Now we can see 
+

@@ -57,7 +57,7 @@ Now when we have Patch Editor open we will start building our effect.
 7. Drag **Sobel Filter** to the Patch Editor, and connect **RGBA** output from **cameraTexture** to the **Sobel Filter**.
 8. Mouse-click on Patch Editor, and in the **Search** area type **"Swizzle"** - **Add Patch**
 9. Connect **Sobel Filter** to the input **Value** of the **Swizzle** patch.
-10. In **Swizzle** patch change Swizzle value from "x" to "**rgb1**"
+10. In Swizzle patch change **Swizzle** value from "x" to "**rgb1**"
 11. Connect **Swizzle** output to the input of a **Diffuse Texture**.
 
 ![Sobel Filter](/tutorial-img/sobel-filter-preview.png)

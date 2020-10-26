@@ -3,7 +3,7 @@
 
 In this guide you'll learn to create a simple camera effect that resembles ink sketch done on white paper.
 
-We're going to use a built-in shaders patches - easiestway to achive variety of atistic styles for Instagram camera.
+We're going to use a built-in shaders patches - easiest way to achive variety of atistic styles for Instagram camera.
 
 ### Setting up
 
@@ -20,7 +20,7 @@ Create new **Blank Project** and follow along.
 
 ### Using Spark AR Library
 
-![Test Animated Gif](/tutorial-img/libruary.png)
+![Test Animated Gif](/tutorial-img/library.png)
 
 1. Click on **Library** and select **Patch Assets**. 
 2. In Collections select **Shaders**.
@@ -36,4 +36,4 @@ Now we need to open Patch Editor.
 
 ![Test Animated Gif](/tutorial-img/view-patch-editor.png)
 
-Select **View** - **Show/Hide PAtch Editor**.
+Select **View** - **Show/Hide Patch Editor**.

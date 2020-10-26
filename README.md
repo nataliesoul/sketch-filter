@@ -9,4 +9,13 @@ We're going to use a built-in shaders patches - easiestway to achive variety of 
 
 Create new Blank Project and follow along.
 
-![Test Animated Gif](/tutorial-img/gif-test1.gif)
+![Test Animated Gif](/tutorial-img/rectangle.gif)
+
+![Test Animated Gif](/tutorial-img/fill-width.gif)
+
+![Test Animated Gif](/tutorial-img/AR-Library-Sobel-filter3.gif)
+
+![Test Animated Gif](/tutorial-img/sobel-screen.png)
+
+
+

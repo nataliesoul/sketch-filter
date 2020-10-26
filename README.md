@@ -83,7 +83,7 @@ The last Shader we going ro add is DuoTone Shader. And again we going to repeat 
 1. Click on **Library** and select **Patch Assets**. 
 2. In Collections select **Shaders**.
 3. Select **Duotone Color**.
-4. Press on **Import Free*
+4. Press on **Import Free**
 5. Drag DuoTone Shader to the patch editor.
 6. Again brake connection between Adjust Colors Shader and Diffuse Texture.
 7. Connect Adjust Colors Shader's output to the **Texture** input of DuoTone Shader patch, and connect output to the Diffuse Texture.

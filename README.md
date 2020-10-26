@@ -25,7 +25,7 @@ Create a new **Blank Project** and follow along.
 1. Click on **Library** and select **Patch Assets**. 
 2. In Collections select **Shaders**.
 3. Scroll to the bottom, and select **Sobel Filter**.
-4. Press on **Import Free*
+4. Press on **Import Free**
 
 ![Test Animated Gif](/tutorial-img/AR-Library-Sobel-filter3.gif)
 
